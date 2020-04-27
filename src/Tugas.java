@@ -4,8 +4,8 @@ public class Tugas {
         int j = 20;
 
         for (i = 0 ; i<= j ; i++){
-            System.out.println("Berhitung : " + i + "Kg");
+            System.out.println("Berhitung : " + i );
         }
-        System.out.println("Finale : Berhitung sampai  : " + i + "Kg");
+        System.out.println("Berhitung sampai  : " + i);
     }
 }
