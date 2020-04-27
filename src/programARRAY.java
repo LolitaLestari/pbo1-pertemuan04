@@ -15,7 +15,7 @@ public class programARRAY {
                 nilaiMahasiswa[2][0] * bobot [2] +
                 nilaiMahasiswa[3][0] * bobot [3];
 
-        System.out.println("Nilai si Mahasiswa 1 : " +nilaiMahasiswa[4][0]);
+        System.out.println("Nilai si Mahasiswa 1 : " +nilaiMahasiswa[3][0]);
 
         nilaiMahasiswa[0][0] = 80;
         nilaiMahasiswa[1][0] = 90;
@@ -24,9 +24,9 @@ public class programARRAY {
 
         nilaiMahasiswa[4][0] = 0;
         for (int i=0; i<=3; i++){
-            nilaiMahasiswa[4][1] +=nilaiMahasiswa[i][1] * bobot[i];
+            nilaiMahasiswa[3][1] +=nilaiMahasiswa[i][1] * bobot[i];
         }
-        System.out.println("Nilai Mahasiswa 2 : " + nilaiMahasiswa[4][1]);
+        System.out.println("Nilai Mahasiswa 2 : " + nilaiMahasiswa[3][1]);
 
         double jumlahNilaiAkhir = 0;
         for (int i=0 ; i<=3; i++){
